@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       Jason Walsh
+email:       rightlag@gmail.com
+author:      Jason Walsh
+description: "all things about life and open source"
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "https://github.com/rightlag"
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -36,7 +36,7 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: rightlag
 bitbucket_username:
 stackoverflow_id:
 twitter_username:
