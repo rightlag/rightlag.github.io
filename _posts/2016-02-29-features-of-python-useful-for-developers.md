@@ -45,7 +45,7 @@ Using named fields makes it easier for other developers to associate meaning to 
 
 ## Context managers
 
-Context managers are a unique feature to Python. They involved the use of a `with` statement, which provide both `__enter__()` and `__exit__()` [https://pythonconquerstheuniverse.wordpress.com/2012/03/09/pythons-magic-methods/]("dunder") methods that are invoked upon entry and exit within the body of the `with` statement.
+Context managers are a unique feature to Python. They involved the use of a `with` statement, which provide both `__enter__()` and `__exit__()` ["dunder"](https://pythonconquerstheuniverse.wordpress.com/2012/03/09/pythons-magic-methods/) methods that are invoked upon entry and exit within the body of the `with` statement.
 
 ```python
 with open('endpoints.json', 'rb') as fp:
@@ -62,7 +62,7 @@ finally:
     fp.close()
 ```
 
-You can implement your own functionality for `with` statements within custom classes by overriding the `__enter__` and `__exit__` methods. See the [https://en.wikipedia.org/wiki/Operator_overloading](wiki) page for more information on operator overloading.
+You can implement your own functionality for `with` statements within custom classes by overriding the `__enter__` and `__exit__` methods. See the [wiki](https://en.wikipedia.org/wiki/Operator_overloading) page for more information on operator overloading.
 
 ## List comprehensions
 
