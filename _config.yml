@@ -4,7 +4,7 @@ email:       rightlag@gmail.com
 author:      Jason Walsh
 description: "all things about life and open source"
 baseurl:     ""
-url:         "https://github.com/rightlag"
+url:         "http://www.jasonwalsh.me/"
 date_format: "%b %-d, %Y"
 
 # Google services

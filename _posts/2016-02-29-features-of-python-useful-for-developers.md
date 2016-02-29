@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Featurs of Python Useful for Developers
+title:      Features of Python Useful for Developers
 date:       2016-02-29 12:00:00
 summary:    A compilation of useful practices for the Python programming language.
 categories: python idiomatic practices
