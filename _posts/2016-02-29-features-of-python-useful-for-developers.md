@@ -2,8 +2,8 @@
 layout:     post
 title:      Featurs of Python Useful for Developers
 date:       2016-02-29 12:00:00
-summary:    A compilation of useful practices for the Python programming language
-categories: python idiomatic best-practices
+summary:    A compilation of useful practices for the Python programming language.
+categories: python idiomatic practices
 ---
 
 Below is a collection of modules/idiomatic practices that I think are useful for Python developers (this will be periodically updated):
@@ -60,6 +60,7 @@ try:
      do something with the opened file
 finally:
     fp.close()
+```
 
 You can implement your own functionality for `with` statements within custom classes by overriding the `__enter__` and `__exit__` methods. See the [https://en.wikipedia.org/wiki/Operator_overloading](wiki) page for more information on operator overloading.
 
