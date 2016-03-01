@@ -6,13 +6,13 @@ summary:    pyswagger allows developers to load JSON formatted Swagger schemas a
 categories: python swagger open API
 ---
 
-A project that I've been working on recently is [https://github.com/rightlag/pyswagger](pyswagger). The purpose of `pyswagger` is to load any JSON formatted [http://swagger.io/](Swagger) schema and generate an abstract client to issue requests to the [http://swagger.io/specification/#pathsObject](paths) defined in the schema. This project has proven to be challenging but fun at the same time. I'd like to talk about why I decided to write `pyswagger` and talk about some of the issues I faced while writing it.
+A project that I've been working on recently is [pyswagger](https://github.com/rightlag/pyswagger). The purpose of `pyswagger` is to load any JSON formatted [Swagger](http://swagger.io/) schema and generate an abstract client to issue requests to the [paths](http://swagger.io/specification/#pathsObject) defined in the schema. This project has proven to be challenging but fun at the same time. I'd like to talk about why I decided to write `pyswagger` and talk about some of the issues I faced while writing it.
 
 ### Why did I write it?
 
-For a while now, I've been writing Python modules that interface with HTTP APIs. While this is great, it becomes redundant. I think one of the things that really resonated with me was the talk given by Raymond Hettinger at [https://www.youtube.com/watch?v=wf-BqAjZb8M](PyCon 2015). While the talk mostly focuses on writing intelligible code, he mentions the use of creating a template for additional projects in the foreseeable future. This just made sense to me. I asked myself, "Why do I keep rewriting the same code?" Almost all of the modules that I've written that work with HTTP APIs have the same structure.
+For a while now, I've been writing Python modules that interface with HTTP APIs. While this is great, it becomes redundant. I think one of the things that really resonated with me was the talk given by Raymond Hettinger at [PyCon 2015](https://www.youtube.com/watch?v=wf-BqAjZb8M). While the talk mostly focuses on writing intelligible code, he mentions the use of creating a template for additional projects in the foreseeable future. This just made sense to me. I asked myself, "Why do I keep rewriting the same code?" Almost all of the modules that I've written that work with HTTP APIs have the same structure.
 
-So, after doing some research, I found out about [http://swagger.io/](Swagger). I thought, "Perfect, this is exactly what I need." So, I started to write a module that would read the schema definitions and create an abstract client for issuing requests.
+So, after doing some research, I found out about [Swagger](http://swagger.io/). I thought, "Perfect, this is exactly what I need." So, I started to write a module that would read the schema definitions and create an abstract client for issuing requests.
 
 ### Challenges
 
