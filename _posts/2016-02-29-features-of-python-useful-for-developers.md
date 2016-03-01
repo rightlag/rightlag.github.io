@@ -57,7 +57,7 @@ Without context specifiers, the above code would involve the use of `try/finally
 ```python
 try:
     fp = open('endpoints.json', 'rb')
-     do something with the opened file
+    # do something with the opened file
 finally:
     fp.close()
 ```
